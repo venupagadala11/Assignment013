@@ -1,0 +1,5 @@
+<div class="head">
+    NAME: <app-input-box [holder]="nameHolder" (childToParent)="getName($event)"></app-input-box>
+    DESCRIPTION: <app-input-box [holder]="descHolder" (childToParent)="getDisc($event)"></app-input-box>
+    <button (click)="addData()">Add</button>
+</div>

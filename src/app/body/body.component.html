@@ -1,0 +1,10 @@
+
+<div class="body">
+  <ul  style="list-style-type: '🔔 ';">
+    
+    <li *ngFor="let item of data; let i=index">
+      name: {{ item.name }}  Discription: {{ item.description }}
+      <button class="btn" style="margin-left: 20px;" (click)="deleteData(i)">Delete</button>
+    </li><br>
+  </ul>
+</div>
