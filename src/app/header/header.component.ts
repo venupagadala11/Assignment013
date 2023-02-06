@@ -19,9 +19,9 @@
     addData() 
     {
       this.dataService.addData({ name: this.name, description: this.description });  
-      this.name="";
-      this.description="";
+   
     }
+    
     getName(event:Event)
     {
       this.name = (<HTMLInputElement>event.target).value;
